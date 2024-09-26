@@ -1,0 +1,221 @@
+*{
+    background-color: #cccccc;
+}
+
+h1{
+    text-align: center;
+    font-size: large;
+    font-family:Sqaure ;
+}
+
+h2{
+    font-size: large;
+    font-family: Square;
+}
+
+li{
+
+list-style: none;
+display: inline;
+float: left;
+
+}
+
+li a{
+
+    display: block;
+    color:black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-family:Square;
+    font-size: large;
+    margin-right: 25px;
+    background-color: #cccccc;
+}
+
+li a:hover{
+    color: rgb(3, 188, 255);
+    transition: 0.2s;
+}
+
+.navbar{
+    display: flex; 
+    align-items: center; 
+    justify-content: center;
+    padding-right: 15px;
+    padding-left: 15px;
+    background-color: #cccccc;
+}
+
+.Loansome,a{
+    font-size: xx-large; 
+    font-weight: 600; 
+    color: rgb(0, 0, 0);
+    font-family: Square;
+    background-color: #cccccc;
+    text-decoration: none;
+    margin: auto;
+    padding: auto;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.Loansome :hover {
+
+    color: rgb(3, 188, 255);
+    transition: 0.2s;
+}
+
+.button{
+    background-color: rgb(255, 162, 0); 
+    margin-left: 10px; 
+    border-radius: 10px;
+    border: solid;
+    padding: 10px; 
+    width: 140px;
+
+}
+.button a{
+    color: white; 
+    font-weight: bold; 
+    font-size: 15px;
+
+}
+
+.button :hover {
+
+    color: black;
+    transition: 0.3s;
+}
+
+@font-face {
+    font-family:Square;
+    src: url(name_smile/Name\ Smile.otf);
+}
+
+img {
+    align-items: center;
+}
+
+input[type="text"],
+input[type="email"],
+textarea {
+  width: 100%;
+  padding: 12px;
+  border: 1px solid #b8b8b8;
+  border-radius: 15px;
+  box-sizing: border-box;
+  margin-top: 6px;
+  margin-bottom: 20px;
+}
+
+input[type="submit"] {
+    background-color: #8a8a05;
+    color: white;
+    padding: 15px 25px;
+    border: none;
+    border-radius: 15px;
+    cursor: pointer;
+    transition: background-color 0.2 ease-in-out;
+  }
+
+  input[type="submit"]:hover {
+    background-color: #ffaa00;
+  }
+
+.form {
+
+    left: 50px;
+    width: 50%;
+    background-color: #cccccc;
+    padding: 10px;
+    border-radius: 20px;
+        display: flex;
+    position: relative;
+    
+
+}
+
+.form {
+
+    width: 50%;
+   
+}
+
+
+.form {
+
+    display: flex;
+    position: relative;
+}
+
+.footer{
+        background-color: #cccccc;
+        border-top: 1px solid #cccccc;;
+        text-align: center;
+        position: static;
+        bottom: 0;
+        width: 1320px;
+        margin-top: 25px;
+        font-size: large;
+        font-family: Square;
+}
+
+.Box {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse
+}
+
+.roles{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: row-reverse  
+}
+
+.📦{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 69px;
+    margin-left: 25px;
+    max-width: 100%;
+    height: 800;
+    flex-direction: row-reverse;
+
+}
+
+.bank{
+    width: 600px;
+    height: 400px;
+    padding: auto;
+    margin-right: 50px;
+    margin-left: 100px;
+}
+
+.dpbox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 69px;
+    margin-left: 25px;
+    max-width: 100%;
+    height: 800;
+
+}
+
+.dp{
+    width: 600px;
+    height: 400px;
+    padding: auto;
+    margin-right: 100px;
+    margin-left: 50px;
+}
+
+p{
+    font-weight: normal;
+}
